@@ -37,12 +37,11 @@ public class FXMLDocumentController implements Initializable {
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
     }    
 
     @FXML
     private void makeinternalannouncementbutton(ActionEvent event) throws IOException {
-         Parent scene2Parent = FXMLLoader.load(getClass().getResource("Announcement.fxml"));
+        Parent scene2Parent = FXMLLoader.load(getClass().getResource("InternalAnnouncement.fxml"));
         Scene scene2 = new Scene(scene2Parent);
         Stage stg2 = (Stage)((Node)event.getSource()).getScene().getWindow();
         stg2.setScene(scene2);
@@ -50,4 +49,68 @@ public class FXMLDocumentController implements Initializable {
           
     }
     
+
+
+
+    @FXML
+    private void qualitycontrollbutton(ActionEvent event) throws IOException {
+        Parent scene2Parent = FXMLLoader.load(getClass().getResource("QualityControll.fxml"));
+        Scene scene2 = new Scene(scene2Parent);
+        Stage stg2 = (Stage)((Node)event.getSource()).getScene().getWindow();
+        stg2.setScene(scene2);
+        stg2.show();
+          
+    }
+    
+    
+    @FXML
+    private void auditbutton(ActionEvent event) throws IOException {
+        Parent scene2Parent = FXMLLoader.load(getClass().getResource("AuditReport.fxml"));
+        Scene scene2 = new Scene(scene2Parent);
+        Stage stg2 = (Stage)((Node)event.getSource()).getScene().getWindow();
+        stg2.setScene(scene2);
+        stg2.show();
+          
+    }
+    
+    @FXML
+    private void pcbutton(ActionEvent event) throws IOException {
+        Parent scene2Parent = FXMLLoader.load(getClass().getResource("PolicyMaking.fxml"));
+        Scene scene2 = new Scene(scene2Parent);
+        Stage stg2 = (Stage)((Node)event.getSource()).getScene().getWindow();
+        stg2.setScene(scene2);
+        stg2.show();
+          
+    }
+    @FXML
+    private void labelingbutton(ActionEvent event) throws IOException {
+        Parent scene2Parent = FXMLLoader.load(getClass().getResource("LabelingCompilance.fxml"));
+        Scene scene2 = new Scene(scene2Parent);
+        Stage stg2 = (Stage)((Node)event.getSource()).getScene().getWindow();
+        stg2.setScene(scene2);
+        stg2.show();
+          
+    }
+     @FXML
+    private void lofibutton(ActionEvent event) throws IOException {
+        Parent scene2Parent = FXMLLoader.load(getClass().getResource("LogsofInfractions.fxml"));
+        Scene scene2 = new Scene(scene2Parent);
+        Stage stg2 = (Stage)((Node)event.getSource()).getScene().getWindow();
+        stg2.setScene(scene2);
+        stg2.show();
+          
+    }
+    @FXML
+    private void viewsalereportbutton(ActionEvent event) throws IOException {
+        Parent scene2Parent = FXMLLoader.load(getClass().getResource("SaleReport.fxml"));
+        Scene scene2 = new Scene(scene2Parent);
+        Stage stg2 = (Stage)((Node)event.getSource()).getScene().getWindow();
+        stg2.setScene(scene2);
+        stg2.show();
+          
+    }
+       
 }
+    
+
+

@@ -4,14 +4,14 @@
  */
 package regulatoryofficer;
 
+import java.io.File;
+
 /**
  *
  * @author User
  */
-public class AppendableObjectOutputStream extends ObjectOutputStream {
+class FileOutputStream {
 
-    public AppendableObjectOutputStream(FileOutputStream fos) {
-        super(fos);
+    FileOutputStream(File f) {
     }
-    
 }

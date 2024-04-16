@@ -19,18 +19,16 @@
       <Hyperlink layoutX="90.0" layoutY="149.0" />
       <Hyperlink layoutX="90.0" layoutY="285.0" />
       <Hyperlink layoutX="90.0" layoutY="317.0" />
-      <Text layoutX="262.0" layoutY="419.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select an option from above">
+      <Text layoutX="249.0" layoutY="414.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select an option from above">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Text>
-      <Button layoutX="236.0" layoutY="62.0" mnemonicParsing="false" onAction="#makeinternalannouncementbutton" text="Make Internal Announcement" />
-      <Button layoutX="236.0" layoutY="105.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="217.0" text="Labeling Compilance" />
-      <Button layoutX="236.0" layoutY="148.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="217.0" text="Policy Making" />
-      <Button layoutX="236.0" layoutY="187.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="217.0" text="Inspection and Audit" />
-      <Button layoutX="236.0" layoutY="229.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="217.0" text="View Transaction Report" />
-      <Button layoutX="236.0" layoutY="270.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="217.0" text="View Logs of Infractions" />
-      <Button layoutX="236.0" layoutY="353.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="217.0" text="Quality Control" />
-      <Button layoutX="236.0" layoutY="311.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="217.0" text="View Sale Report" />
+      <Button contentDisplay="CENTER" layoutX="259.0" layoutY="69.0" mnemonicParsing="false" onAction="#makeinternalannouncementbutton" text="Make Internal Announcement" />
+      <Button layoutX="260.0" layoutY="125.0" mnemonicParsing="false" onAction="#labelingbutton" prefHeight="31.0" prefWidth="217.0" text="Labeling Compilance" />
+      <Button layoutX="260.0" layoutY="181.0" mnemonicParsing="false" onAction="#pcbutton" prefHeight="31.0" prefWidth="217.0" text="Policy Making" />
+      <Button layoutX="259.0" layoutY="238.0" mnemonicParsing="false" onAction="#auditbutton" prefHeight="31.0" prefWidth="217.0" text="Inspection and Audit" />
+      <Button layoutX="260.0" layoutY="293.0" mnemonicParsing="false" onAction="#lofibutton" prefHeight="31.0" prefWidth="217.0" text="View Logs of Infractions" />
+      <Button layoutX="259.0" layoutY="345.0" mnemonicParsing="false" onAction="#viewsalereportbutton" prefHeight="31.0" prefWidth="217.0" text="View Sale Report" />
     </children>
 </AnchorPane>
